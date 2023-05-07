@@ -1,0 +1,51 @@
+Project 1:
+Tables - Classes, Subjects, Students, Teachers
+
+Classes - 2 Columns
+ClassName 	Subjects	Teacher
+5th Standard M1			Mr.John
+5th Standard P1			Mr.Sathish
+5th Standard C1			...
+6th Standard M1			...
+6th Standard P1			...
+6th Standard C1			...
+6th Standard E1			...
+6th Standard CS			...
+
+
+Subjects
+SubjectID	SubjectName
+M1		Maths
+P1		Physics
+C1		Chemistry
+E1		English
+CS		Computer Science
+
+Tech Stack - JSP,Servlets,Hibernate / JDBC.
+
+Workflow:
+1.) Provide the Login Facility for the Admin.
+2.) Select all the data from Classes, Subjects, Teachers and display it in the HTML / JSP Page.
+3.) Update the Classes table with the Subjects, Teachers.
+4.) HTML Page for getting the List of Students Table.
+5.) Logout Functionality.
+
+Project 2:
+Tables - Flights, Booking
+
+Flights Table:
+FlightNumber	AirlinesName	Source Destination	DateOfTravel	Seats
+IN534LH			XYZ Airlines	Bengaluru	New Delhi	12-05-2023	119
+IN534PY			PYZ Airlines	Chennai	Bengaluru	14-05-2023	222
+
+Booking Table:
+BookingId	FlightNumber PassengerName	PassengerAge	PassengerUniqueId	PassengerGender SeatNumber DateOfTravel
+
+Workflow:
+1.) Login functionality for Admin.
+2.) Provide 4 text boxes for source, destination, dateoftravel, numberofpassengers and a Search Button.
+3.) Once, Search button is clicked, select the data from Flights table and display it back in the HTML/JSP Page. 
+4.) If you have 5 Flights, please add a Book Ticket button for every flight.
+5.) Based on numberofPassengers, get their name, age, IDProof Numbers, dateoftravel etc and store in Booking table.
+6.) Generate a auto generated Booking ID and show the Ticket COnfirmation message with the Booking ID to the user.
+7.) Reduce the number of seats by the numberOFPassengers in the Flights table.
